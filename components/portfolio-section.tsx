@@ -25,6 +25,12 @@ const projects = [
     links: [{ label: "github", href: "https://github.com/Jay-Thpr/FlipIt" }],
   },
   {
+    title: "CAfE",
+    description:
+      "An automated compliance form-filling engine that streamlines paperwork and reduces manual entry, built at the LPL Financial Hackathon.",
+    links: [{ label: "github", href: "https://github.com/Rafael215/compliance-autofill-engine" }],
+  },
+  {
     title: "Malaysian Housing Predictor",
     description:
       "A machine learning project that predicts Malaysian housing prices from market and property features.",
@@ -34,12 +40,6 @@ const projects = [
         href: "https://github.com/piqim/Malaysian-Housing-Price-Predictive-Model",
       },
     ],
-  },
-  {
-    title: "CAfE",
-    description:
-      "An automated compliance form-filling engine that streamlines paperwork and reduces manual entry, built at the LPL Financial Hackathon.",
-    links: [{ label: "github", href: "https://github.com/Rafael215/compliance-autofill-engine" }],
   },
 ]
 
