@@ -4,7 +4,7 @@ Personal portfolio site. Built with Next.js, Tailwind CSS, and TypeScript.
 
 ## Live Site
 
-`https://your-deployed-link-here.com`
+[https://eliotboda.dev/](https://eliotboda.dev/)
 
 ## Local Development
 
