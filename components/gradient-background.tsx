@@ -1,13 +1,22 @@
 "use client"
 
 import { GrainGradient } from "@paper-design/shaders-react"
+import { useTheme } from "next-themes"
+import { useEffect, useState } from "react"
 
 export function GradientBackground() {
+  const { theme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => setMounted(true), [])
+
+  const colorBack = mounted && theme === "light" ? "hsl(210, 40%, 96%)" : "hsl(0, 0%, 0%)"
+
   return (
     <div className="absolute inset-0 -z-10">
       <GrainGradient
         style={{ height: "100%", width: "100%" }}
-        colorBack="hsl(0, 0%, 0%)"
+        colorBack={colorBack}
         softness={0.76}
         intensity={0.45}
         noise={0}

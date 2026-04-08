@@ -25,7 +25,7 @@ const projects = [
     links: [{ label: "github", href: "https://github.com/Jay-Thpr/FlipIt" }],
   },
   {
-    title: "Malaysian Housing Price Predictive Model",
+    title: "Malaysian Housing Predictor",
     description:
       "A machine learning project that predicts Malaysian housing prices from market and property features.",
     links: [
@@ -54,7 +54,7 @@ export function PortfolioSection() {
     <div className="font-sans w-full max-w-xl">
       {/* Name */}
       <header className="mb-2">
-        <h1 className="text-white text-4xl md:text-5xl font-normal leading-tight">
+        <h1 className="text-foreground text-4xl md:text-5xl font-normal leading-tight">
           Eliot Boda
         </h1>
       </header>
@@ -65,40 +65,40 @@ export function PortfolioSection() {
           <a
             key={link.label}
             href={link.href}
-            className="text-white/40 hover:text-white/80 text-sm transition-colors"
+            className="text-foreground/40 hover:text-foreground/80 text-sm transition-colors"
           >
             {link.label}
-            {i < socialLinks.length - 1 && <span className="ml-4 text-white/20">·</span>}
+            {i < socialLinks.length - 1 && <span className="ml-4 text-foreground/20">·</span>}
           </a>
         ))}
       </nav>
 
       {/* About */}
       <section className="mb-10">
-        <h2 className="text-white text-xl mb-3">about</h2>
-        <p className="text-white/60 text-sm leading-relaxed">
-          Tell us about yourself. Share what you do, what you&apos;re passionate about, and any relevant background information.
+        <h2 className="text-foreground text-xl mb-3">about</h2>
+        <p className="text-foreground/60 text-sm leading-relaxed">
+          Hi, I&apos;m Eliot. I study computer science at UCSD. I&apos;m interested in AI, and I also enjoy staying active and spending time outside.
         </p>
       </section>
 
       {/* Experience */}
       <section className="mb-10">
-        <h2 className="text-white text-xl mb-4">experience</h2>
+        <h2 className="text-foreground text-xl mb-4">experience</h2>
         <div className="space-y-5">
           {experience.map((item) => (
             <div key={item.company} className="group">
               <div className="flex items-baseline justify-between gap-4">
                 <div>
-                  <span className="text-white text-sm">{item.company}</span>
-                  <span className="text-white/40 text-sm"> · {item.role}</span>
+                  <span className="text-foreground text-sm">{item.company}</span>
+                  <span className="text-foreground/40 text-sm"> · {item.role}</span>
                 </div>
-                <span className="text-white/30 text-xs shrink-0">{item.period}</span>
+                <span className="text-foreground/30 text-xs shrink-0">{item.period}</span>
               </div>
-              <p className="text-white/50 text-sm mt-0.5">{item.description}</p>
+              <p className="text-foreground/50 text-sm mt-0.5">{item.description}</p>
               {item.link && (
                 <a
                   href={item.link.href}
-                  className="inline-block mt-1 text-white/30 hover:text-white/60 text-xs transition-colors"
+                  className="inline-block mt-1 text-foreground/30 hover:text-foreground/60 text-xs transition-colors"
                 >
                   [{item.link.label}]
                 </a>
@@ -110,12 +110,12 @@ export function PortfolioSection() {
 
       {/* Projects */}
       <section>
-        <h2 className="text-white text-xl mb-4">projects</h2>
+        <h2 className="text-foreground text-xl mb-4">projects</h2>
         <div className="space-y-6">
           {projects.map((project) => (
             <div key={project.title}>
-              <h3 className="text-white text-sm font-medium">{project.title}</h3>
-              <p className="text-white/50 text-sm mt-0.5 leading-relaxed">
+              <h3 className="text-foreground text-sm font-medium">{project.title}</h3>
+              <p className="text-foreground/50 text-sm mt-0.5 leading-relaxed">
                 {project.description}
               </p>
               {project.links && (
@@ -124,7 +124,7 @@ export function PortfolioSection() {
                     <a
                       key={link.label}
                       href={link.href}
-                      className="text-white/30 hover:text-white/60 text-xs transition-colors"
+                      className="text-foreground/30 hover:text-foreground/60 text-xs transition-colors"
                     >
                       ·{link.label}
                     </a>
