@@ -3,7 +3,7 @@
 const experience = [
   {
     company: "Maynooth University",
-    role: "AI Researcher (incoming)",
+    role: "Robotics Software Intern (incoming)",
     period: "Summer 2026",
     description:
       "AURA is a research project developing a sustainable autonomous agriculture robotic platform.",
@@ -11,9 +11,9 @@ const experience = [
   },
   {
     company: "UCSD",
-    role: "ITS Field Support",
+    role: "Information Technology Support Specialist",
     period: "2025 - Present",
-    description: "Supporting campus technology needs through responsive field support and troubleshooting.",
+    description: "Managing user accounts and device deployments across a 30,000+ user enterprise environment at UC San Diego ITS.",
   },
 ]
 

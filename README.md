@@ -24,4 +24,4 @@ npm start
 
 ## Deployment
 
-Deployed on [Vercel](https://vercel.com). Push to `main` to trigger a production deploy.
+Deployed on [Vercel](https://vercel.com).
