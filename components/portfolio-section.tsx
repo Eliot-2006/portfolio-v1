@@ -21,7 +21,7 @@ const projects = [
   {
     title: "SourceCheck",
     description:
-      "A fact verification tool that extracts claims from research writing, checks them against research papers, and returns a claim-by-claim audit with a corrected paragraph, built @ SDxUCSD Agent Hackathon.",
+      "A fact verification tool that extracts claims from research writing, checks them against research papers, and returns a claim-by-claim audit with a corrected version, built @ SDxUCSD Agent Hackathon.",
     links: [{ label: "github", href: "https://github.com/Eliot-2006/SourceCheck" }],
   },
   {
