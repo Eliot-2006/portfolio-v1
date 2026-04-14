@@ -19,6 +19,12 @@ const experience = [
 
 const projects = [
   {
+    title: "SourceCheck",
+    description:
+      "A fact verification tool that extracts claims from research writing, checks them against a provided source URL, and returns a claim-by-claim audit with a corrected paragraph, built at the SDxUCSD Agent Hackathon.",
+    links: [{ label: "github", href: "https://github.com/Eliot-2006/SourceCheck" }],
+  },
+  {
     title: "FlipIt",
     description:
       "An autonomous resale agent that identifies thrift store finds, estimates profit, drafts listings, and hunts marketplaces for rare items, built at DiamondHacks @ UCSD.",
