@@ -21,19 +21,19 @@ const projects = [
   {
     title: "SourceCheck",
     description:
-      "A fact verification tool that extracts claims from research writing, checks them against a provided source URL, and returns a claim-by-claim audit with a corrected paragraph, built at the SDxUCSD Agent Hackathon.",
+      "A fact verification tool that extracts claims from research writing, checks them against research papers, and returns a claim-by-claim audit with a corrected paragraph, built @ SDxUCSD Agent Hackathon.",
     links: [{ label: "github", href: "https://github.com/Eliot-2006/SourceCheck" }],
   },
   {
     title: "FlipIt",
     description:
-      "An autonomous resale agent that identifies thrift store finds, estimates profit, drafts listings, and hunts marketplaces for rare items, built at DiamondHacks @ UCSD.",
+      "An autonomous resale agent that identifies thrift store finds, estimates profit, drafts listings, and hunts marketplaces for rare items, built @ UCSD DiamondHacks.",
     links: [{ label: "github", href: "https://github.com/Jay-Thpr/FlipIt" }],
   },
   {
     title: "CAfE",
     description:
-      "An automated compliance form-filling engine that streamlines paperwork and reduces manual entry, built at the LPL Financial Hackathon.",
+      "An automated compliance form-filling engine that streamlines paperwork and reduces manual entry, built @ LPL Financial Hackathon.",
     links: [{ label: "github", href: "https://github.com/Rafael215/compliance-autofill-engine" }],
   },
   {
