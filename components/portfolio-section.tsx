@@ -3,7 +3,7 @@
 const experience = [
   {
     company: "Maynooth University",
-    role: "Robotics Software Intern (incoming)",
+    role: "Robotics Software Intern",
     period: "Summer 2026",
     description:
       "AURA is a research project developing a sustainable autonomous agriculture robotic platform.",
@@ -12,7 +12,7 @@ const experience = [
   {
     company: "UCSD",
     role: "Information Technology Support Specialist",
-    period: "2025 - Present",
+    period: "2025 - 2026",
     description: "Managing user accounts and device deployments across a 30,000+ user enterprise environment at UC San Diego ITS.",
   },
 ]
