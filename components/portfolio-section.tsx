@@ -19,6 +19,12 @@ const experience = [
 
 const projects = [
   {
+    title: "RevX",
+    description:
+      "A vehicle repair marketplace that connects drivers with nearby mechanics through swipe-based matching, with AI diagnosis from symptoms, photos, and audio, plus realtime chat.",
+    links: [{ label: "demo", href: "https://rev-x-dev-build.vercel.app/" }],
+  },
+  {
     title: "SourceCheck",
     description:
       "A fact verification tool that extracts claims from research writing, checks them against research papers, and returns a claim-by-claim audit with a corrected version, built @ SDxUCSD Agent Hackathon.",
